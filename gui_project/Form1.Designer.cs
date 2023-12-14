@@ -55,6 +55,11 @@ namespace gui_project
             GroupBox week4 = new GroupBox();
             CheckBox cb1 = new CheckBox();
             this.Size = new Size(1000, 600);
+            this.tb1.Location = new System.Drawing.Point(0, 0);
+            this.tb1.Name = "tb1";
+            this.tb1.Size = new System.Drawing.Size(100, 20);
+            this.tb1.TabIndex = 0;
+            this.tb1.Text = "hello";
 
             this.Controls.Add(panel1);
             panel1.Size = new Size(900, 500);
